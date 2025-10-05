@@ -1,4 +1,4 @@
-FROM centos:7.6.1810@sha256:62d9e1c2daa91166139b51577fe4f4f6b4cc41a3a2c7fc36bd895e2a17a3e4e6
+FROM centos:7.7.1908@sha256:50752af5182c6cd5518e3e91d48f7ff0cba93d5d760a67ac140e2d63c4dd9efc
 MAINTAINER GerritForge
 # Allow remote connectivity and sudo
 RUN yum -y install openssh-client initscripts sudo
