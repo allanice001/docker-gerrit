@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:24.04@sha256:73b999393d07f2bf65a40373778a44dc9a6d54ad7718d29247d8ff9413c4d6a8
 MAINTAINER GerritForge
 # Add Gerrit packages repository
 RUN echo "deb mirror://mirrorlist.gerritforge.com/deb gerrit contrib" > /etc/apt/sources.list.d/GerritForge.list
